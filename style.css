@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#btlr{
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0.5rem 7rem;
+}
+#navbarSupportedContent a:hover {
+  color: rgb(81, 47, 134);
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  color: rgb(58, 58, 58);
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+ul li ul .dropdown li {
+  display: block;
+  padding-left: 0;
+  margin-left: 0;
+}
+ul li ul.dropdown {
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+ul li:hover ul.dropdown {
+  display: block;
+  width: 210px;
+}
+#section1 {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 0 7rem;
+}
+#section1 #right1 {
+  width: 50%;
+}
+#section1 #left1 {
+  width: 50%;
+}
+#section1 img {
+  position: relative;
+  top: -170px;
+}
+#section1 h1 {
+  color: rgb(80, 47, 143);
+}
+#section2 h1 {
+  color: rgb(80, 47, 143);
+}
+#left2 {
+  width: 50%;
+  background-color: rgb(235, 226, 249);
+}
+#right2 {
+  width: 50%;
+}
+#left2 button {
+  width: 150px;
+  border: 0;
+  background-color: rgb(80, 47, 143);
+  padding: 15px;
+  border-radius: 25px;
+  color: #fff;
+  position: relative;
+  top: 200px;
+  left: 80px;
+}
+#left2 button:hover {
+  background-color: rgb(235, 226, 249);
+  color: rgb(80, 47, 143);
+  border: 2px solid rgb(80, 47, 143);
+}
+#section3 button{
+  position: relative;
+  top: 60px;
+  right: 10px;
+}
+#section5 button{
+  position: relative;
+  top: 60px;
+  right: 10px;
+}
+#section4 {
+  margin-top: 50px;
+}
+#section4 button {
+  width: 150px;
+  border: 0;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+  color: rgb(80, 47, 143);
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+#section4 button:hover {
+  background-color: rgb(80, 47, 143);
+  color: #fff;
+  border: 2px solid #fff;
+}
+#left4 {
+  width: 50%;
+  background-color: rgb(80, 47, 143);
+}
+#right4 {
+  color: #fff;
+  padding-top: 70px;
+  width: 50%;
+  background-color: rgb(80, 47, 143);
+}
+#section5 {
+  margin-top: 50px;
+}
+#left5 {
+  width: 50%;
+}
+#right5 {
+  width: 50%;
+}
+#section5 #left2 {
+  color: #fff;
+  background-color: rgb(80, 47, 143);
+}
+#section5 #left2 button {
+  background-color: #fff;
+  color: rgb(80, 47, 143);
+}
+#section5 #left2 button:hover {
+  border: 2px solid #fff;
+  background-color: rgb(80, 47, 143);
+  color: #fff;
+}
+#section6 {
+  margin-top: 50px;
+}
+#section6 #right2 button {
+  width: 150px;
+  border: 0;
+  background-color: rgb(80, 47, 143);
+  padding: 15px;
+  border-radius: 25px;
+  color: #fff;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
+#section6 #right2 button:hover {
+  background-color: #fff;
+  color: rgb(80, 47, 143);
+  border: 2px solid rgb(80, 47, 143);
+}
+#section6 #right2 h1 {
+  color: rgb(80, 47, 143);
+}
+#section6 #left2 {
+  background-color: #fff;
+}
+#section7 {
+  margin-top: 50px;
+}
+#section7 h1{
+  color: rgb(80, 47, 143);
+}
+#section7 #left2{
+  background-color: transparent;
+}
+#section7 button{
+  position: relative;
+  top: 30px;
+}
+#section8{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+#section8 h1{
+  color: rgb(80, 47, 143);
+}
+#section9{
+  margin-top: 50px;
+  margin-left: 0%;
+  padding: 0%;
+}
+#section9 div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#section9 div #scrc{
+  z-index: -1;
+  position: relative;
+  right: 440px;
+}
+footer{
+  background-color: rgb(80, 47, 143);
+}
+footer i{
+  padding: 5px;
+}
